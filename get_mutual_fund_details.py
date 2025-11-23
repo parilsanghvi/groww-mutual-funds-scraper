@@ -59,15 +59,40 @@ def scrape_fund_data(url):
         fund_type = fund_type_elements[1].text if len(fund_type_elements) > 1 else "NA"
         df_row["Fund Type"] = fund_type
 
-        # AUM
-        aum_table = soup.find_all('table', attrs={'class': 'tb10Table fd12Table'})
+        # AUM (Fund Size)
+        # Look for table with "Fund Size" in header
         aum = "NA"
-        if len(aum_table) > 1:
-            rows = aum_table[1].find_all('tr')
-            if len(rows) > 1:
-                cols = rows[1].find_all('td')
-                if len(cols) > 1:
-                    aum = cols[1].text
+        tables = soup.find_all('table')
+        for table in tables:
+            if "Fund Size" in table.text:
+                # Check headers
+                headers = [th.text.strip() for th in table.find_all('th')]
+                fund_size_index = -1
+                for i, h in enumerate(headers):
+                    if "Fund Size" in h:
+                        fund_size_index = i
+                        break
+                
+                if fund_size_index != -1:
+                    # Get first data row
+                    rows = table.find_all('tr')
+                    # Skip header row
+                    for row in rows:
+                        cols = row.find_all('td')
+                        if not cols: 
+                            # Try th if first column is th (some tables use th for row headers)
+                            cols = row.find_all(['td', 'th'])
+                        
+                        # If this is a data row (has enough columns)
+                        if len(cols) > fund_size_index:
+                            # Check if it's the fund row (usually first row after header, or matches fund name)
+                            # Assuming first row is the fund
+                            val = cols[fund_size_index].text.strip()
+                            # Basic check to ensure it's a number/value
+                            if any(c.isdigit() for c in val):
+                                aum = val
+                                break
+                break
         df_row["AUM"] = aum
 
         # Expense Ratio
@@ -88,65 +113,93 @@ def scrape_fund_data(url):
                  exit_load_text = exit_load_div.p.text.strip()
         df_row["Exit Load"] = exit_load_text
 
-        # Initialize containers for returns data
+        # Benchmark
+        benchmark = "NA"
+        # Look for table with "Fund benchmark" in header
+        for table in tables:
+            if "Fund benchmark" in table.text:
+                rows = table.find_all('tr')
+                for row in rows:
+                    th = row.find('th')
+                    td = row.find('td')
+                    if th and td and "Fund benchmark" in th.text:
+                        benchmark = td.text.strip()
+                        break
+                if benchmark != "NA":
+                    break
+        df_row["Benchmark"] = benchmark
+
+        # Returns and Rank
         fund_returns = {}
         category_averages = {}
         rank_within_category = {}
-
-        # Extract time periods dynamically from the table header
-        returns_table = soup.find('div', class_='returns961TableContainer')
-        time_periods = []
+        
+        # Find the returns table (contains "Rank with in category" or "Category average")
+        returns_table = None
+        for table in tables:
+            if "Rank with in category" in table.text or "Category average" in table.text:
+                returns_table = table
+                break
+        
         if returns_table:
-            thead = returns_table.find('thead')
-            if thead:
-                headers = thead.find_all('th')
-                time_periods = [header.text.strip() for header in headers[1:]]
-
-            # Initialize each period with "NA" by default
-            for period in time_periods:
-                fund_returns[period] = "NA"
-                category_averages[period] = "NA"
-                rank_within_category[period] = "NA"
-
-            # Populate data for each time period dynamically
+            headers = [th.text.strip() for th in returns_table.find_all('th')]
+            # Headers are usually ['', '1Y', '3Y', '5Y', 'All']
+            
             rows = returns_table.find_all('tr')
             for row in rows:
-                cols = row.find_all('td')
-                if len(cols) > 1:
-                    category = cols[0].text.strip()
-                    for idx, period in enumerate(time_periods):
-                        if idx + 1 < len(cols):
-                            value = cols[idx + 1].text.strip()
-                            if category == 'Fund returns':
-                                fund_returns[period] = value
-                            elif category == 'Category average':
-                                category_averages[period] = value
-                            elif category == 'Rank with in category':
-                                rank_within_category[period] = value
+                cols = row.find_all(['td', 'th'])
+                col_texts = [c.text.strip() for c in cols]
+                if not col_texts: continue
+                
+                label = col_texts[0]
+                # Skip the header row itself if it's being iterated
+                if label in headers and label != "Fund returns" and label != "Category average": continue
 
-        # Add extracted data to the DataFrame row for each period dynamically
-        # Standardize keys if possible, or just use what we found
-        for period in time_periods:
+                if "Fund returns" in label:
+                    for i, header in enumerate(headers):
+                        if i > 0 and i < len(col_texts):
+                            fund_returns[header] = col_texts[i]
+                elif "Category average" in label:
+                    for i, header in enumerate(headers):
+                        if i > 0 and i < len(col_texts):
+                            category_averages[header] = col_texts[i]
+                elif "Rank with in category" in label:
+                    for i, header in enumerate(headers):
+                        if i > 0 and i < len(col_texts):
+                            rank_within_category[header] = col_texts[i]
+
+        for period in ["1Y", "3Y", "5Y", "All"]:
             df_row[f"{period} Fund Return"] = fund_returns.get(period, "NA")
             df_row[f"{period} Category Avg"] = category_averages.get(period, "NA")
             df_row[f"{period} Rank"] = rank_within_category.get(period, "NA")
 
         # P/E and P/B Ratio
-        ratios_table = soup.find('table', attrs={'class': 'tb10Table ha384Table col l5'})
         pe_ratio = "NA"
         pb_ratio = "NA"
-        if ratios_table:
-            rows = ratios_table.find_all('tr')
-            if len(rows) > 2:
-                pe_ratio = rows[2].find('td').text
-            if len(rows) > 3:
-                pb_ratio = rows[3].find('td').text
+        
+        # Find table with P/E Ratio
+        pe_table = None
+        for table in tables:
+            if "P/E Ratio" in table.text:
+                pe_table = table
+                break
+        
+        if pe_table:
+            rows = pe_table.find_all('tr')
+            for row in rows:
+                cols = row.find_all(['td', 'th'])
+                col_texts = [c.text.strip() for c in cols]
+                if len(col_texts) >= 2:
+                    if "P/E Ratio" in col_texts[0]:
+                        pe_ratio = col_texts[1]
+                    elif "P/B Ratio" in col_texts[0]:
+                        pb_ratio = col_texts[1]
+
         df_row["P/E Ratio"] = pe_ratio
         df_row["P/B Ratio"] = pb_ratio
 
         # Alpha, Beta, Sharpe, Sortino
         stats_table = None
-        tables = soup.find_all('table')
         for table in tables:
             if "Alpha" in table.text and "Beta" in table.text:
                 stats_table = table
@@ -213,7 +266,7 @@ def main():
 
     # Run scraping in parallel using ThreadPoolExecutor
     # Reduced max_workers to avoid rate limiting/resource exhaustion
-    max_workers = 4 
+    max_workers = 6 
     print(f"Starting scraping with {max_workers} workers for {len(urls)} URLs...")
     
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
@@ -260,7 +313,7 @@ def main():
         '5Y Fund Return', '5Y Category Avg', '5Y Rank',
         'All Fund Return', 'All Category Avg', 'All Rank',
         'P/E Ratio', 'P/B Ratio', 'Alpha', 'Beta', 'Sharpe', 'Sortino',
-        'Expense Ratio', 'Exit Load', 'Fund Managers'
+        'Expense Ratio', 'Exit Load', 'Benchmark', 'Fund Managers'
     ]
 
     # Save each fund type to a separate sheet in the same Excel file
