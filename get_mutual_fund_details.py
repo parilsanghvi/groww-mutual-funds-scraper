@@ -145,14 +145,26 @@ def scrape_fund_data(url):
         df_row["P/B Ratio"] = pb_ratio
 
         # Alpha, Beta, Sharpe, Sortino
-        stats_table = soup.find('table', attrs={'class': 'tb10Table ha384Table ha384TableRight col l5'})
+        stats_table = None
+        tables = soup.find_all('table')
+        for table in tables:
+            if "Alpha" in table.text and "Beta" in table.text:
+                stats_table = table
+                break
+        
         alpha = beta = sharpe = sortino = "NA"
         if stats_table:
             rows = stats_table.find_all('tr')
-            if len(rows) > 0: alpha = rows[0].find('td').text
-            if len(rows) > 1: beta = rows[1].find('td').text
-            if len(rows) > 2: sharpe = rows[2].find('td').text
-            if len(rows) > 3: sortino = rows[3].find('td').text
+            for row in rows:
+                header = row.find('th')
+                value = row.find('td')
+                if header and value:
+                    header_text = header.text.strip()
+                    val_text = value.text.strip()
+                    if "Alpha" in header_text: alpha = val_text
+                    elif "Beta" in header_text: beta = val_text
+                    elif "Sharpe" in header_text: sharpe = val_text
+                    elif "Sortino" in header_text: sortino = val_text
         
         df_row["Alpha"] = alpha
         df_row["Beta"] = beta
