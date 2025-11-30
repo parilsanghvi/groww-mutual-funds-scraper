@@ -1,0 +1,521 @@
+2025-11-30 19:41:30,177 - INFO - Starting scraping with 5 persistent workers for 1573 URLs...
+2025-11-30 19:41:30,178 - INFO - ====== WebDriver manager ======
+2025-11-30 19:41:30,179 - INFO - ====== WebDriver manager ======
+2025-11-30 19:41:30,179 - INFO - ====== WebDriver manager ======
+2025-11-30 19:41:30,179 - INFO - ====== WebDriver manager ======
+2025-11-30 19:41:30,180 - INFO - ====== WebDriver manager ======
+2025-11-30 19:41:31,451 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:41:31,466 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:41:31,470 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:41:31,475 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:41:31,486 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:41:32,377 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:41:32,377 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:41:32,378 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:41:32,378 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:41:32,378 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:41:33,079 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:41:33,092 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:41:33,111 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:41:33,111 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:41:33,124 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:41:34,553 - INFO - Scraping URL: https://groww.in/mutual-funds/sbi-gold-fund-direct-growth
+2025-11-30 19:41:34,582 - INFO - Scraping URL: https://groww.in/mutual-funds/motilal-oswal-most-focused-midcap-30-fund-direct-growth
+2025-11-30 19:41:34,742 - INFO - Scraping URL: https://groww.in/mutual-funds/bandhan-small-cap-fund-direct-growth
+2025-11-30 19:41:34,753 - INFO - Scraping URL: https://groww.in/mutual-funds/parag-parikh-long-term-value-fund-direct-growth
+2025-11-30 19:41:34,776 - INFO - Scraping URL: https://groww.in/mutual-funds/jioblackrock-flexi-cap-fund-direct-growth
+2025-11-30 19:42:12,636 - INFO - Starting scraping with 10 persistent workers for 1573 URLs...
+2025-11-30 19:42:12,637 - INFO - ====== WebDriver manager ======
+2025-11-30 19:42:12,637 - INFO - ====== WebDriver manager ======
+2025-11-30 19:42:12,638 - INFO - ====== WebDriver manager ======
+2025-11-30 19:42:12,638 - INFO - ====== WebDriver manager ======
+2025-11-30 19:42:12,639 - INFO - ====== WebDriver manager ======
+2025-11-30 19:42:12,640 - INFO - ====== WebDriver manager ======
+2025-11-30 19:42:12,641 - INFO - ====== WebDriver manager ======
+2025-11-30 19:42:12,641 - INFO - ====== WebDriver manager ======
+2025-11-30 19:42:12,642 - INFO - ====== WebDriver manager ======
+2025-11-30 19:42:12,642 - INFO - ====== WebDriver manager ======
+2025-11-30 19:42:14,633 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:14,697 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:14,703 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:14,726 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:14,730 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:14,739 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:14,758 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:14,764 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:14,788 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:14,819 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:15,455 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:15,530 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:15,540 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:15,557 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:15,563 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:15,572 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:15,573 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:15,605 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:15,605 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:15,628 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 19:42:16,175 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:42:16,346 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:42:16,351 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:42:16,384 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:42:16,389 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:42:16,392 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:42:16,396 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:42:16,405 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:42:16,414 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:42:16,419 - INFO - Driver [C:\Users\paril\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 19:42:18,269 - INFO - Scraping URL: https://groww.in/mutual-funds/sbi-gold-fund-direct-growth
+2025-11-30 19:42:18,434 - INFO - Scraping URL: https://groww.in/mutual-funds/motilal-oswal-most-focused-midcap-30-fund-direct-growth
+2025-11-30 19:42:18,441 - INFO - Scraping URL: https://groww.in/mutual-funds/bandhan-small-cap-fund-direct-growth
+2025-11-30 19:42:18,753 - INFO - Scraping URL: https://groww.in/mutual-funds/parag-parikh-long-term-value-fund-direct-growth
+2025-11-30 19:42:18,844 - INFO - Scraping URL: https://groww.in/mutual-funds/jioblackrock-flexi-cap-fund-direct-growth
+2025-11-30 19:42:18,948 - INFO - Scraping URL: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+2025-11-30 19:42:18,949 - INFO - Scraping URL: https://groww.in/mutual-funds/hdfc-silver-etf-fof-direct-growth
+2025-11-30 19:42:19,220 - INFO - Scraping URL: https://groww.in/mutual-funds/nippon-india-small-cap-fund-direct-growth
+2025-11-30 19:42:19,415 - INFO - Scraping URL: https://groww.in/mutual-funds/quant-small-cap-fund-direct-plan-growth
+2025-11-30 19:42:19,416 - INFO - Scraping URL: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2025-11-30 19:42:30,516 - INFO - Scraping URL: https://groww.in/mutual-funds/motilal-oswal-bse-enhanced-value-index-fund-direct-growth
+2025-11-30 19:42:33,647 - INFO - Scraping URL: https://groww.in/mutual-funds/nippon-india-multi-cap-fund-direct-growth
+2025-11-30 19:42:34,156 - INFO - Scraping URL: https://groww.in/mutual-funds/sbi-psu-fund-direct-growth
+2025-11-30 19:42:34,505 - INFO - Scraping URL: https://groww.in/mutual-funds/nippon-india-large-cap-fund-direct-growth
+2025-11-30 19:42:34,975 - INFO - Scraping URL: https://groww.in/mutual-funds/edelweiss-us-technology-equity-fof-direct-growth
+2025-11-30 19:42:35,042 - INFO - Scraping URL: https://groww.in/mutual-funds/tata-small-cap-fund-direct-growth
+2025-11-30 19:42:35,117 - INFO - Scraping URL: https://groww.in/mutual-funds/uti-gold-etf-fof-direct-growth
+2025-11-30 19:42:35,379 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-large-cap-fund-direct-growth
+2025-11-30 19:42:35,452 - INFO - Scraping URL: https://groww.in/mutual-funds/tata-gold-etf-fof-direct-growth
+2025-11-30 19:42:35,465 - INFO - Scraping URL: https://groww.in/mutual-funds/motilal-oswal-large-and-midcap-fund-direct-growth
+2025-11-30 19:42:39,451 - WARNING - Error in AUM fallback: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x6d4103
+	0x6d4144
+	0x4de71d
+	0x4e5493
+	0x4e7864
+	0x4e78f8
+	0x524d8e
+	0x54c90c
+	0x51f7c4
+	0x54cac4
+	0x56ee17
+	0x54c706
+	0x51da30
+	0x51ed54
+	0x9457b4
+	0x94098a
+	0x6fc392
+	0x6ec4c8
+	0x6f324d
+	0x6dc478
+	0x6dc63c
+	0x6c67ca
+	0x76205d49
+	0x7712d6db
+	0x7712d661
+
+2025-11-30 19:42:40,261 - INFO - Scraping URL: https://groww.in/mutual-funds/aditya-birla-sun-life-psu-equity-fund-direct-growth
+2025-11-30 19:42:48,999 - INFO - Scraping URL: https://groww.in/mutual-funds/groww-nifty-total-market-index-fund-direct-growth
+2025-11-30 19:42:49,915 - INFO - Scraping URL: https://groww.in/mutual-funds/axis-silver-fof-direct-growth
+2025-11-30 19:42:49,977 - INFO - Scraping URL: https://groww.in/mutual-funds/lic-mf-gold-etf-fof-direct-growth
+2025-11-30 19:42:50,227 - INFO - Scraping URL: https://groww.in/mutual-funds/sbi-contra-fund-direct-growth
+2025-11-30 19:42:50,659 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-bharat-22-fof-direct-growth
+2025-11-30 19:42:50,878 - INFO - Scraping URL: https://groww.in/mutual-funds/axis-small-cap-fund-direct-growth
+2025-11-30 19:42:50,893 - INFO - Scraping URL: https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth
+2025-11-30 19:42:51,335 - INFO - Scraping URL: https://groww.in/mutual-funds/groww-nifty-smallcap-250-index-fund-direct-growth
+2025-11-30 19:42:53,736 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-dynamic-plan-direct-growth
+2025-11-30 19:42:54,108 - INFO - Scraping URL: https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+2025-11-30 19:42:58,390 - WARNING - Error in AUM fallback: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x6d4103
+	0x6d4144
+	0x4de71d
+	0x4e5493
+	0x4e7864
+	0x4e78f8
+	0x524d8e
+	0x54c90c
+	0x51f7c4
+	0x54cac4
+	0x56ee17
+	0x54c706
+	0x51da30
+	0x51ed54
+	0x9457b4
+	0x94098a
+	0x6fc392
+	0x6ec4c8
+	0x6f324d
+	0x6dc478
+	0x6dc63c
+	0x6c67ca
+	0x76205d49
+	0x7712d6db
+	0x7712d661
+
+2025-11-30 19:42:59,011 - WARNING - Error in AUM fallback: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x6d4103
+	0x6d4144
+	0x4de71d
+	0x4e5493
+	0x4e7864
+	0x4e78f8
+	0x524d8e
+	0x54c90c
+	0x51f7c4
+	0x54cac4
+	0x56ee17
+	0x54c706
+	0x51da30
+	0x51ed54
+	0x9457b4
+	0x94098a
+	0x6fc392
+	0x6ec4c8
+	0x6f324d
+	0x6dc478
+	0x6dc63c
+	0x6c67ca
+	0x76205d49
+	0x7712d6db
+	0x7712d661
+
+2025-11-30 19:42:59,398 - INFO - Scraping URL: https://groww.in/mutual-funds/invesco-india-smallcap-fund-direct-growth
+2025-11-30 19:42:59,476 - INFO - Scraping URL: https://groww.in/mutual-funds/sbi-small-midcap-fund-direct-growth
+2025-11-30 19:42:59,628 - INFO - Scraping URL: https://groww.in/mutual-funds/invesco-india-mid-cap-fund-direct-growth
+2025-11-30 19:42:59,845 - INFO - Scraping URL: https://groww.in/mutual-funds/uti-nifty-fund-direct-growth
+2025-11-30 19:43:00,478 - INFO - Scraping URL: https://groww.in/mutual-funds/nippon-india-growth-mid-cap-fund-direct-growth
+2025-11-30 19:43:00,706 - WARNING - Error in AUM fallback: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x6d4103
+	0x6d4144
+	0x4de71d
+	0x4e5493
+	0x4e7864
+	0x4e78f8
+	0x524d8e
+	0x54c90c
+	0x51f7c4
+	0x54cac4
+	0x56ee17
+	0x54c706
+	0x51da30
+	0x51ed54
+	0x9457b4
+	0x94098a
+	0x6fc392
+	0x6ec4c8
+	0x6f324d
+	0x6dc478
+	0x6dc63c
+	0x6c67ca
+	0x76205d49
+	0x7712d6db
+	0x7712d661
+
+2025-11-30 19:43:00,814 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-infrastructure-fund-direct-growth
+2025-11-30 19:43:00,938 - WARNING - Error in AUM fallback: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x6d4103
+	0x6d4144
+	0x4de71d
+	0x4e5493
+	0x4e7b04
+	0x56fe34
+	0x54c90c
+	0x56ee17
+	0x54c706
+	0x51da30
+	0x51ed54
+	0x9457b4
+	0x94098a
+	0x6fc392
+	0x6ec4c8
+	0x6f324d
+	0x6dc478
+	0x6dc63c
+	0x6c67ca
+	0x76205d49
+	0x7712d6db
+	0x7712d661
+
+2025-11-30 19:43:01,877 - INFO - Scraping URL: https://groww.in/mutual-funds/sbi-magnum-children's-benefit-fund-investment-plan-direct-growth
+2025-11-30 19:43:03,143 - INFO - Scraping URL: https://groww.in/mutual-funds/motilal-oswal-nifty-india-defence-index-fund-direct-growth
+2025-11-30 19:43:04,201 - INFO - Scraping URL: https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+2025-11-30 19:43:04,443 - INFO - Scraping URL: https://groww.in/mutual-funds/motilal-oswal-small-cap-fund-direct-growth
+2025-11-30 19:43:09,558 - INFO - Scraping URL: https://groww.in/mutual-funds/nippon-india-silver-etf-fof-direct-growth
+2025-11-30 19:43:09,870 - INFO - Scraping URL: https://groww.in/mutual-funds/whiteoak-capital-mid-cap-fund-direct-growth
+2025-11-30 19:43:09,976 - INFO - Scraping URL: https://groww.in/mutual-funds/sbi-elss-tax-saver-fund-direct-growth
+2025-11-30 19:43:10,117 - INFO - Scraping URL: https://groww.in/mutual-funds/jioblackrock-nifty-50-index-fund-direct-growth
+2025-11-30 19:43:10,394 - INFO - Scraping URL: https://groww.in/mutual-funds/sbi-large-cap-direct-plan-growth
+2025-11-30 19:43:11,773 - INFO - Scraping URL: https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth
+2025-11-30 19:43:11,774 - INFO - Scraping URL: https://groww.in/mutual-funds/navi-nifty-50-index-fund-direct-growth
+2025-11-30 19:43:11,774 - INFO - Scraping URL: https://groww.in/mutual-funds/motilal-oswal-gold-and-silver-etfs-fof-direct-growth
+2025-11-30 19:43:15,696 - INFO - Scraping URL: https://groww.in/mutual-funds/sbi-magnum-multiplier-fund-direct-growth
+2025-11-30 19:43:16,023 - INFO - Scraping URL: https://groww.in/mutual-funds/axis-gold-fund-direct-growth
+2025-11-30 19:43:16,581 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-technology-fund-direct-growth
+2025-11-30 19:43:18,647 - INFO - Scraping URL: https://groww.in/mutual-funds/sbi-silver-etf-fof-direct-growth
+2025-11-30 19:43:18,772 - WARNING - Error in AUM fallback: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x6d4103
+	0x6d4144
+	0x4de71d
+	0x4e5493
+	0x4e7864
+	0x4e78f8
+	0x524d8e
+	0x54c90c
+	0x51f7c4
+	0x54cac4
+	0x56ee17
+	0x54c706
+	0x51da30
+	0x51ed54
+	0x9457b4
+	0x94098a
+	0x6fc392
+	0x6ec4c8
+	0x6f324d
+	0x6dc478
+	0x6dc63c
+	0x6c67ca
+	0x76205d49
+	0x7712d6db
+	0x7712d661
+
+2025-11-30 19:43:19,949 - WARNING - Error in AUM fallback: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x6d4103
+	0x6d4144
+	0x4de71d
+	0x4e5493
+	0x4e7864
+	0x4e78f8
+	0x524d8e
+	0x54c90c
+	0x51f7c4
+	0x54cac4
+	0x56ee17
+	0x54c706
+	0x51da30
+	0x51ed54
+	0x9457b4
+	0x94098a
+	0x6fc392
+	0x6ec4c8
+	0x6f324d
+	0x6dc478
+	0x6dc63c
+	0x6c67ca
+	0x76205d49
+	0x7712d6db
+	0x7712d661
+
+2025-11-30 19:43:20,481 - INFO - Scraping URL: https://groww.in/mutual-funds/kotak-emerging-equity-scheme-direct-growth
+2025-11-30 19:43:20,711 - INFO - Scraping URL: https://groww.in/mutual-funds/quant-elss-tax-saver-fund-direct-growth
+2025-11-30 19:43:21,217 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-balanced-direct-growth
+2025-11-30 19:43:21,389 - INFO - Scraping URL: https://groww.in/mutual-funds/tata-digital-india-fund-direct-growth
+2025-11-30 19:43:21,729 - INFO - Scraping URL: https://groww.in/mutual-funds/edelweiss-mid-and-small-cap-fund-direct-growth
+2025-11-30 19:43:21,902 - INFO - Scraping URL: https://groww.in/mutual-funds/nippon-india-nifty-500-momentum-50-index-fund-direct-growth
+2025-11-30 19:43:26,310 - WARNING - Error in AUM fallback: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x6d4103
+	0x6d4144
+	0x4de71d
+	0x4e5493
+	0x4e7864
+	0x4e78f8
+	0x524d8e
+	0x54c90c
+	0x51f7c4
+	0x54cac4
+	0x56ee17
+	0x54c706
+	0x51da30
+	0x51ed54
+	0x9457b4
+	0x94098a
+	0x6fc392
+	0x6ec4c8
+	0x6f324d
+	0x6dc478
+	0x6dc63c
+	0x6c67ca
+	0x76205d49
+	0x7712d6db
+	0x7712d661
+
+2025-11-30 19:43:26,559 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-top-100-fund-direct-growth
+2025-11-30 19:43:26,662 - INFO - Scraping URL: https://groww.in/mutual-funds/groww-value-fund-direct-growth
+2025-11-30 19:43:26,840 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-regular-gold-savings-(fof)-direct-growth
+2025-11-30 19:43:27,255 - INFO - Scraping URL: https://groww.in/mutual-funds/tata-silver-etf-fof-direct-growth
+2025-11-30 19:43:32,011 - INFO - Scraping URL: https://groww.in/mutual-funds/quant-mid-cap-fund-direct-growth
+2025-11-30 19:43:32,322 - INFO - Scraping URL: https://groww.in/mutual-funds/canara-robeco-small-cap-fund-direct-growth
+2025-11-30 19:43:32,425 - INFO - Scraping URL: https://groww.in/mutual-funds/hdfc-multi-cap-fund-direct-growth
+2025-11-30 19:43:32,631 - INFO - Scraping URL: https://groww.in/mutual-funds/groww-gold-etf-fof-direct-growth
+2025-11-30 19:43:32,746 - INFO - Scraping URL: https://groww.in/mutual-funds/invesco-india-psu-equity-fund-direct-growth
+2025-11-30 19:43:33,032 - INFO - Scraping URL: https://groww.in/mutual-funds/jioblackrock-liquid-fund-direct-growth
+2025-11-30 19:43:36,745 - INFO - Scraping URL: https://groww.in/mutual-funds/jioblackrock-nifty-smallcap-250-index-fund-direct-growth
+2025-11-30 19:43:37,489 - INFO - Scraping URL: https://groww.in/mutual-funds/motilal-oswal-nifty-microcap-250-index-fund-direct-growth
+2025-11-30 19:43:37,741 - INFO - Scraping URL: https://groww.in/mutual-funds/birla-sun-life-cash-plus-direct-growth
+2025-11-30 19:43:38,388 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-pharma-healthcare-and-diagnostics-(p.h.d)-fund-direct-growth
+2025-11-30 19:43:41,641 - WARNING - Error in AUM fallback: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x6d4103
+	0x6d4144
+	0x4de71d
+	0x4e5493
+	0x4e7864
+	0x4e78f8
+	0x524d8e
+	0x54c90c
+	0x51f7c4
+	0x54cac4
+	0x56ee17
+	0x54c706
+	0x51da30
+	0x51ed54
+	0x9457b4
+	0x94098a
+	0x6fc392
+	0x6ec4c8
+	0x6f324d
+	0x6dc478
+	0x6dc63c
+	0x6c67ca
+	0x76205d49
+	0x7712d6db
+	0x7712d661
+
+2025-11-30 19:43:42,447 - INFO - Scraping URL: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+2025-11-30 19:43:42,626 - INFO - Scraping URL: https://groww.in/mutual-funds/mirae-asset-elss-tax-saver-fund-direct-growth
+2025-11-30 19:43:42,763 - INFO - Scraping URL: https://groww.in/mutual-funds/sbi-mid-cap-direct-plan-growth
+2025-11-30 19:43:42,809 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-commodities-fund-direct-growth
+2025-11-30 19:43:42,966 - INFO - Scraping URL: https://groww.in/mutual-funds/motilal-oswal-nifty-500-momentum-50-index-fund-direct-growth
+2025-11-30 19:43:43,027 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-nifty-index-fund-direct-growth
+2025-11-30 19:43:43,151 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-short-term-plan-direct-growth
+2025-11-30 19:43:48,366 - INFO - Scraping URL: https://groww.in/mutual-funds/franklin-india-opportunities-fund-direct-growth
+2025-11-30 19:43:48,459 - INFO - Scraping URL: https://groww.in/mutual-funds/sbi-pharma-fund-direct-growth
+2025-11-30 19:43:48,782 - INFO - Scraping URL: https://groww.in/mutual-funds/kotak-multicap-fund-direct-growth
+2025-11-30 19:43:50,115 - INFO - Scraping URL: https://groww.in/mutual-funds/parag-parikh-elss-tax-saver-fund-direct-growth
+2025-11-30 19:43:50,481 - WARNING - Error in AUM fallback: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x6d4103
+	0x6d4144
+	0x4de71d
+	0x4e5493
+	0x4e7b04
+	0x56fe34
+	0x54c90c
+	0x56ee17
+	0x54c706
+	0x51da30
+	0x51ed54
+	0x9457b4
+	0x94098a
+	0x6fc392
+	0x6ec4c8
+	0x6f324d
+	0x6dc478
+	0x6dc63c
+	0x6c67ca
+	0x76205d49
+	0x7712d6db
+	0x7712d661
+
+2025-11-30 19:43:51,721 - INFO - Scraping URL: https://groww.in/mutual-funds/hdfc-nifty-50-index-fund-direct-growth
+2025-11-30 19:43:52,128 - WARNING - Error in AUM fallback: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x6d4103
+	0x6d4144
+	0x4de71d
+	0x4e5493
+	0x4e7864
+	0x4e78f8
+	0x524d8e
+	0x54c90c
+	0x51f7c4
+	0x54cac4
+	0x56ee17
+	0x54c706
+	0x51da30
+	0x51ed54
+	0x9457b4
+	0x94098a
+	0x6fc392
+	0x6ec4c8
+	0x6f324d
+	0x6dc478
+	0x6dc63c
+	0x6c67ca
+	0x76205d49
+	0x7712d6db
+	0x7712d661
+
+2025-11-30 19:43:52,234 - INFO - Scraping URL: https://groww.in/mutual-funds/nippon-india-multi-asset-allocation-fund-direct-growth
+2025-11-30 19:43:52,268 - WARNING - Error in AUM fallback: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x6d4103
+	0x6d4144
+	0x4de71d
+	0x4e5493
+	0x4e7864
+	0x4e78f8
+	0x524d8e
+	0x54c90c
+	0x51f7c4
+	0x54cac4
+	0x56ee17
+	0x54c706
+	0x51da30
+	0x51ed54
+	0x9457b4
+	0x94098a
+	0x6fc392
+	0x6ec4c8
+	0x6f324d
+	0x6dc478
+	0x6dc63c
+	0x6c67ca
+	0x76205d49
+	0x7712d6db
+	0x7712d661
+
+2025-11-30 19:43:53,202 - INFO - Scraping URL: https://groww.in/mutual-funds/motilal-oswal-most-focused-multicap-35-fund-direct-growth
+2025-11-30 19:43:53,293 - INFO - Scraping URL: https://groww.in/mutual-funds/quant-infrastructure-fund-direct-growth
+2025-11-30 19:43:53,325 - INFO - Scraping URL: https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth
+2025-11-30 19:43:53,960 - INFO - Scraping URL: https://groww.in/mutual-funds/jioblackrock-nifty-midcap-150-index-fund-direct-growth
+2025-11-30 19:43:55,988 - INFO - Scraping URL: https://groww.in/mutual-funds/invesco-india-flexi-cap-fund-direct-growth
+2025-11-30 19:43:56,577 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-silver-etf-fof-direct-growth
+2025-11-30 19:43:56,624 - INFO - Scraping URL: https://groww.in/mutual-funds/dsp-nifty-next-50-index-fund-direct-growth
+2025-11-30 19:43:58,100 - INFO - Scraping URL: https://groww.in/mutual-funds/quantum-gold-savings-fund-Direct-growth
+2025-11-30 19:43:59,905 - INFO - Scraping URL: https://groww.in/mutual-funds/hdfc-short-term-opportunities-fund-direct-growth
+2025-11-30 19:44:00,392 - INFO - Scraping URL: https://groww.in/mutual-funds/mirae-asset-large-midcap-fund-direct-growth
+2025-11-30 19:44:02,320 - INFO - Scraping URL: https://groww.in/mutual-funds/sbi-magnum-balanced-fund-direct-growth
+2025-11-30 19:44:02,624 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-value-direct-growth
+2025-11-30 19:44:02,625 - INFO - Scraping URL: https://groww.in/mutual-funds/aditya-birla-sun-life-gold-fund-direct-growth
+2025-11-30 19:44:02,625 - INFO - Scraping URL: https://groww.in/mutual-funds/icici-prudential-nifty-next-50-index-fund-direct-growth
