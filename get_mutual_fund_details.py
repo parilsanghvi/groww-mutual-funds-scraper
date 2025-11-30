@@ -366,7 +366,7 @@ def main():
         with failed_lock:
             failed_list.extend(local_failed)
 
-    max_workers = 10
+    max_workers = 7
     logger.info(f"Starting scraping with {max_workers} persistent workers for {len(urls)} URLs...")
     
     threads = []

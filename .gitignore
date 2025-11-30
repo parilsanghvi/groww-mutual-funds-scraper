@@ -1,2 +1,22 @@
+# Virtual environment
 venv/
+
+# Excel output files
 *.xlsx
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
